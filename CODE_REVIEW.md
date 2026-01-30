@@ -7,6 +7,10 @@ for creating a Citizen Prosperity Index from Understanding Society (UKHLS) data.
 
 Two code bugs were identified, along with several methodological concerns.
 
+Updated 2026-01-30 with findings from the MRP output data
+(`poststrat_14_01_2026/`), including fit diagnostics, MCSE stability,
+microdata coverage gaps, and credible interval analysis.
+
 ---
 
 ## BUG 1 (High Impact): Wellbeing block double-counts its members
@@ -147,6 +151,100 @@ many young people have the subdomain driven disproportionately by the other
 measure. The MRP model adjusts for age composition in predictions, but the
 outcome variable itself already contains this structural missingness pattern,
 which the model cannot fully recover from.
+
+---
+
+## MRP OUTPUT FINDINGS (from poststrat_14_01_2026/)
+
+### FINDING 1 (High Impact): Three subdomains lack meaningful ward-level discrimination
+
+Credible interval analysis reveals that for three subdomains, the 95%
+credible intervals are wider than the full range of ward-level means.
+This means the model **cannot reliably distinguish or rank wards** for
+these outcomes -- the uncertainty swamps the signal.
+
+| Subdomain | Avg CI Width | Range of Ward Means | CI/Range Ratio | Assessment |
+|---|---|---|---|---|
+| Voice and influence | 1.05 | 0.87 | **1.21** | Cannot rank wards |
+| Social relationships | 1.44 | 1.33 | **1.08** | Cannot rank wards |
+| Lifelong learning | 2.06 | 2.15 | 0.96 | Borderline |
+| Arts, leisure & sports | 4.49 | 5.22 | 0.86 | Wide CIs, but range is wider |
+
+For Arts/leisure/sports, the average CI (4.49) is 1.56 times the average
+mean (3.04), meaning individual ward estimates are extremely imprecise even
+though there is enough range to see broad patterns.
+
+These subdomains contribute equally to the CPI alongside much more
+precisely estimated subdomains, diluting the index with noise.
+
+### FINDING 2 (High Impact): 81 wards (11.9%) have no microdata across ALL subdomains
+
+81 wards are entirely model-extrapolated for every single subdomain.
+Their CPI scores depend solely on the MRP model's structural assumptions
+and the correctness of the IPF-weighted Census covariates. For these wards,
+the CPI cannot be validated against any direct survey evidence.
+
+Two subdomains have substantially worse coverage:
+
+| Subdomain | Wards without microdata | % of 679 |
+|---|---|---|
+| Arts, leisure & sports | **144** | **21.2%** |
+| Voice and influence | **129** | **19.0%** |
+| All other subdomains | 81-84 | 11.9-12.4% |
+
+The 63 extra missing wards in Arts/leisure/sports (beyond the core 81)
+correspond to wards where Wave L `l_orga96` had no respondents. This
+is consistent with Methodological Concern 3 (single binary indicator
+from a single wave).
+
+### FINDING 3 (Medium Impact): Two models have low effective sample sizes
+
+Two MRP models have `min_neff_ratio` below the 0.10 threshold, meaning
+at least one parameter in each model has fewer than 10% effectively
+independent posterior draws:
+
+| Subdomain | min_neff_ratio | n_rows | Flag |
+|---|---|---|---|
+| Arts, leisure & sports | **0.055** | 2,083 | Below 0.10 |
+| Voice and influence | **0.059** | 2,383 | Below 0.10 |
+| Lifelong learning | 0.102 | 3,319 | Marginal |
+| All others | 0.13-0.26 | 3,400-3,600 | OK |
+
+These are the same two subdomains with the worst microdata coverage.
+The low n_eff could produce noisy posterior summaries for some parameters.
+All other convergence indicators are clean: zero divergent transitions
+across all 12 models, and all max Rhat values below 1.01.
+
+### FINDING 4 (Medium Impact): Extrapolated wards have substantially wider CIs
+
+Wards without microdata have credible intervals 5-48% wider than those
+with data, depending on subdomain:
+
+| Subdomain | CI width ratio (no data / has data) |
+|---|---|
+| Secure Livelihoods | **1.48x** |
+| Healthy neighbourhoods | 1.29x |
+| Good basic education | 1.28x |
+| Healthy bodies/minds | 1.22x |
+| All others | 1.05-1.17x |
+
+The Secure Livelihoods penalty is notable because this subdomain feeds
+into "Foundations of Prosperity" alongside the much thinner "An inclusive
+economy" subdomain (Methodological Concern 4). Extrapolated wards are
+disproportionately imprecise in the richer subdomain.
+
+### FINDING 5 (Low Impact): MCSE values are universally acceptable
+
+All relative MCSE values (MCSE/posterior SD) are below 0.03 across all
+679 wards and all 12 subdomains, well under the 0.10 concern threshold.
+The MCMC sampling itself is numerically stable.
+
+### FINDING 6 (Informational): Ward count discrepancy (679 vs 680)
+
+The MRP outputs contain 679 wards, while the final summary CSV contains
+680 rows. This is likely the City of London (E09000001), which is excluded
+in Script 1 (line 421) but may be re-included by the LSOA-to-ward lookup
+in Script 3. Worth verifying that all 680 summary rows have valid estimates.
 
 ---
 
