@@ -1,0 +1,7 @@
+outcome=SUBD__Opportunities.and.Aspirations__Freedom..choice.and.control
+n_rows=3479
+max_rhat=1.00342058486492
+min_neff_ratio=0.223619602210246
+n_divergent=0
+model_predictors=age_band,sex_cat,econ3,edu2
+poststrat_draws_used=500

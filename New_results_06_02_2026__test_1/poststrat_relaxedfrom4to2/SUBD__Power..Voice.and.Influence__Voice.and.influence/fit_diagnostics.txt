@@ -1,0 +1,7 @@
+outcome=SUBD__Power..Voice.and.Influence__Voice.and.influence
+n_rows=2421
+max_rhat=1.00185685043057
+min_neff_ratio=0.147890423133467
+n_divergent=0
+model_predictors=age_band,sex_cat,econ3,edu2
+poststrat_draws_used=8000

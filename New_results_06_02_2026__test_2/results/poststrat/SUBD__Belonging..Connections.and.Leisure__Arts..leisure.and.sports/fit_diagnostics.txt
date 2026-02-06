@@ -1,0 +1,7 @@
+outcome=SUBD__Belonging..Connections.and.Leisure__Arts..leisure.and.sports
+n_rows=3479
+max_rhat=1.00201979136323
+min_neff_ratio=0.131037674912616
+n_divergent=0
+model_predictors=age_band,sex_cat,econ3,edu2
+poststrat_draws_used=8000

@@ -1,0 +1,7 @@
+outcome=SUBD__Health.and.Healthy.Environments__Healthy..safe.and.clean.neighbourhoods
+n_rows=3538
+max_rhat=1.00201054927845
+min_neff_ratio=0.286591725503186
+n_divergent=0
+model_predictors=age_band,sex_cat,econ3,edu2
+poststrat_draws_used=500

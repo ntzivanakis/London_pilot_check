@@ -1,0 +1,7 @@
+outcome=SUBD__Opportunities.and.Aspirations__Lifelong.learning
+n_rows=3319
+max_rhat=1.01171704122963
+min_neff_ratio=0.0957473859587908
+n_divergent=0
+model_predictors=age_band,sex_cat,econ3,edu2
+poststrat_draws_used=2000

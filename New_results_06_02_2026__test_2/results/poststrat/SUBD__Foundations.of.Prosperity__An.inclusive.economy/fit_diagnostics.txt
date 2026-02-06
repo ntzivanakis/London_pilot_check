@@ -1,0 +1,7 @@
+outcome=SUBD__Foundations.of.Prosperity__An.inclusive.economy
+n_rows=3513
+max_rhat=1.0017215682777
+min_neff_ratio=0.202132296614905
+n_divergent=0
+model_predictors=age_band,sex_cat,econ3,edu2
+poststrat_draws_used=8000

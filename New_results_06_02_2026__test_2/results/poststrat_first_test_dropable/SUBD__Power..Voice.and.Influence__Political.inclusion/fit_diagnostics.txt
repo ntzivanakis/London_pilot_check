@@ -1,0 +1,7 @@
+outcome=SUBD__Power..Voice.and.Influence__Political.inclusion
+n_rows=3369
+max_rhat=1.00198880101833
+min_neff_ratio=0.226464136440432
+n_divergent=0
+model_predictors=age_band,sex_cat,econ3,edu2
+poststrat_draws_used=500
