@@ -1,0 +1,7 @@
+outcome=SUBD__Opportunities.and.Aspirations__Good.quality.basic.education
+n_rows=3418
+max_rhat=1.0017691575636
+min_neff_ratio=0.149512725577259
+n_divergent=0
+model_predictors=age_band,sex_cat,econ3,edu2
+poststrat_draws_used=8000
