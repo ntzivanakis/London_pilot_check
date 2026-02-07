@@ -1,0 +1,24 @@
+domain,subdomain,measure,mean_coverage,min_coverage,max_coverage,n_vars
+Foundations of Prosperity,Secure Livelihoods,Secure income and good quality work,0.608805806628321,0.409819227608874,0.723089564502876,6
+Foundations of Prosperity,Secure Livelihoods,Genuinely affordable and secure housing,0.674986305121884,0.498972884141331,0.72329498767461,6
+Foundations of Prosperity,Secure Livelihoods,Freedom from financial stress,0.620275267050123,0.493837304847987,0.74671322925226,2
+Foundations of Prosperity,Secure Livelihoods,Food and energy security,0.675225965488907,0.613599013968776,0.706244864420707,3
+Foundations of Prosperity,Secure Livelihoods,Access to key basic services,0.680669679539852,0.677485620377979,0.683853738701726,2
+Foundations of Prosperity,Secure Livelihoods,Feeling secure about the future,0.733429197480143,0.721446179129006,0.745686113393591,3
+Foundations of Prosperity,An inclusive economy,Fairness and equity,0.590112298000548,0.394617912900575,0.723500410846343,3
+Opportunities and Aspirations,Good quality basic education,Access to good quality education,0.669337167899206,0.644823336072309,0.713023829087921,3
+Opportunities and Aspirations,Lifelong learning,Access to skills and training for work,0.405505341002465,0.405505341002465,0.405505341002465,1
+Opportunities and Aspirations,Lifelong learning,Opportunities for self-improvement and personal development,0.597576006573542,0.597576006573542,0.597576006573542,1
+Opportunities and Aspirations,"Freedom, choice and control",Freedom from discrimination,0.66228430566968,0.658997534921939,0.66557107641742,2
+Opportunities and Aspirations,"Freedom, choice and control",Having choices and control over one’s future,0.722062448644207,0.722062448644207,0.722062448644207,1
+"Power, Voice and Influence",Political inclusion,Political inclusion,0.656655710764174,0.628594905505341,0.673582580115037,5
+"Power, Voice and Influence",Voice and influence,Feelings of influence,0.613804437140509,0.552588331963846,0.656737880032868,5
+"Belonging, Connections and Leisure",Social relationships,"Regular contact with family, friends, and neighbours",0.692217396408029,0.63455217748562,0.720419063270337,7
+"Belonging, Connections and Leisure",Sense of community,Community cohesion,0.393693508627773,0.110517666392769,0.676869350862777,2
+"Belonging, Connections and Leisure",Sense of community,Getting involved in community life,0.715797041906327,0.68138866064092,0.750821692686935,4
+"Belonging, Connections and Leisure","Arts, leisure and sports","Participation in arts, sport, and leisure activities",0.593604491920022,0.505135579293344,0.723089564502876,3
+Health and Healthy Environments,Healthy bodies and healthy minds,Healthy bodies,0.683545603944125,0.505135579293344,0.757189811010682,4
+Health and Healthy Environments,Healthy bodies and healthy minds,Wellbeing,0.725965488907149,0.725965488907149,0.725965488907149,1
+Health and Healthy Environments,Healthy bodies and healthy minds,Access to health and care services,0.294474116680362,0.294371405094495,0.294576828266228,2
+Health and Healthy Environments,"Healthy, safe and clean neighbourhoods",Good quality housing,0.604046836483155,0.484798685291701,0.72329498767461,2
+Health and Healthy Environments,"Healthy, safe and clean neighbourhoods",Safe and clean neighbourhoods,0.669576828266228,0.644412489728842,0.694741166803615,2

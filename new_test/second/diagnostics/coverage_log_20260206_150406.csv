@@ -1,0 +1,71 @@
+domain,subdomain,measure,var,coverage
+Foundations of Prosperity,Secure Livelihoods,Secure income and good quality work,n_fihhmngrs_dv,0.698849630238291
+Foundations of Prosperity,Secure Livelihoods,Secure income and good quality work,n_fihhmnnet1_dv,0.711585866885785
+Foundations of Prosperity,Secure Livelihoods,Secure income and good quality work,n_net_eq,0.695562859490551
+Foundations of Prosperity,Secure Livelihoods,Secure income and good quality work,n_jbterm1,0.409819227608874
+Foundations of Prosperity,Secure Livelihoods,Secure income and good quality work,n_sclfsat7,0.723089564502876
+Foundations of Prosperity,Secure Livelihoods,Secure income and good quality work,n_jbsat,0.41392769104355
+Foundations of Prosperity,Secure Livelihoods,Genuinely affordable and secure housing,n_houscost2_dv,0.498972884141331
+Foundations of Prosperity,Secure Livelihoods,Genuinely affordable and secure housing,space_per_person,0.706244864420707
+Foundations of Prosperity,Secure Livelihoods,Genuinely affordable and secure housing,no_mortgage,0.709120788824979
+Foundations of Prosperity,Secure Livelihoods,Genuinely affordable and secure housing,own_ind,0.705423171733772
+Foundations of Prosperity,Secure Livelihoods,Genuinely affordable and secure housing,finance_free_ind,0.706861133935908
+Foundations of Prosperity,Secure Livelihoods,Genuinely affordable and secure housing,n_sclfsat3,0.72329498767461
+Foundations of Prosperity,Secure Livelihoods,Freedom from financial stress,current_financial_comfort_ind,0.74671322925226
+Foundations of Prosperity,Secure Livelihoods,Freedom from financial stress,ability_to_save_ind,0.493837304847987
+Foundations of Prosperity,Secure Livelihoods,Food and energy security,food_security_hh_ind,0.613599013968776
+Foundations of Prosperity,Secure Livelihoods,Food and energy security,foodbank_nonuse_secure_ind,0.705834018077239
+Foundations of Prosperity,Secure Livelihoods,Food and energy security,heat_ok,0.706244864420707
+Foundations of Prosperity,Secure Livelihoods,Access to key basic services,digital_connectivity_ind,0.683853738701726
+Foundations of Prosperity,Secure Livelihoods,Access to key basic services,public_transport_quality_ind,0.677485620377979
+Foundations of Prosperity,Secure Livelihoods,Feeling secure about the future,support_in_need_ind,0.721446179129006
+Foundations of Prosperity,Secure Livelihoods,Feeling secure about the future,xpmove_secure_ind,0.745686113393591
+Foundations of Prosperity,Secure Livelihoods,Feeling secure about the future,finfuture_secure_ind,0.733155299917831
+Foundations of Prosperity,An inclusive economy,Fairness and equity,fulltime_ind,0.394617912900575
+Foundations of Prosperity,An inclusive economy,Fairness and equity,income_satisfaction_ind,0.723500410846343
+Foundations of Prosperity,An inclusive economy,Fairness and equity,income_equality_ind,0.652218570254725
+Opportunities and Aspirations,Good quality basic education,Access to good quality education,level_edu_ind,0.713023829087921
+Opportunities and Aspirations,Good quality basic education,Access to good quality education,primary_school_quality_ind,0.650164338537387
+Opportunities and Aspirations,Good quality basic education,Access to good quality education,secondary_school_quality_ind,0.644823336072309
+Opportunities and Aspirations,Lifelong learning,Access to skills and training for work,access_training_any,0.405505341002465
+Opportunities and Aspirations,Lifelong learning,Opportunities for self-improvement and personal development,self_improvement_30plus,0.597576006573542
+Opportunities and Aspirations,"Freedom, choice and control",Freedom from discrimination,helpful_neighbours_ind,0.66557107641742
+Opportunities and Aspirations,"Freedom, choice and control",Freedom from discrimination,neighbour_harmony_ind,0.658997534921939
+Opportunities and Aspirations,"Freedom, choice and control",Having choices and control over one’s future,agency_mean,0.722062448644207
+"Power, Voice and Influence",Political inclusion,Political inclusion,political_identity_importance_ind,0.655299917830731
+"Power, Voice and Influence",Political inclusion,Political inclusion,satisfaction_voting_ind,0.628594905505341
+"Power, Voice and Influence",Political inclusion,Political inclusion,political_efficacy_qualified_ind,0.663105998356615
+"Power, Voice and Influence",Political inclusion,Political inclusion,political_efficacy_informed_ind,0.662695152013147
+"Power, Voice and Influence",Political inclusion,Political inclusion,political_interest_ind,0.673582580115037
+"Power, Voice and Influence",Voice and influence,Feelings of influence,vote_influence,0.573952341824158
+"Power, Voice and Influence",Voice and influence,Feelings of influence,say_in_government,0.656737880032868
+"Power, Voice and Influence",Voice and influence,Feelings of influence,protest_rights,0.654889071487264
+"Power, Voice and Influence",Voice and influence,Feelings of influence,democracy_satisfaction,0.630854560394413
+"Power, Voice and Influence",Voice and influence,Feelings of influence,organised_voice_or,0.552588331963846
+"Belonging, Connections and Leisure",Social relationships,"Regular contact with family, friends, and neighbours",n_scropenup,0.63455217748562
+"Belonging, Connections and Leisure",Social relationships,"Regular contact with family, friends, and neighbours",n_scfopenup,0.649137222678718
+"Belonging, Connections and Leisure",Social relationships,"Regular contact with family, friends, and neighbours",n_sclonely,0.720213640098603
+"Belonging, Connections and Leisure",Social relationships,"Regular contact with family, friends, and neighbours",n_sclackcom,0.719186524239934
+"Belonging, Connections and Leisure",Social relationships,"Regular contact with family, friends, and neighbours",n_scisolate,0.720419063270337
+"Belonging, Connections and Leisure",Social relationships,"Regular contact with family, friends, and neighbours",n_scleftout,0.719802793755136
+"Belonging, Connections and Leisure",Social relationships,"Regular contact with family, friends, and neighbours",neighbour_contact_ind,0.682210353327855
+"Belonging, Connections and Leisure",Sense of community,Community cohesion,social_cohesion_phdcn,0.110517666392769
+"Belonging, Connections and Leisure",Sense of community,Community cohesion,neighbourhood_cohesion_buckner,0.676869350862777
+"Belonging, Connections and Leisure",Sense of community,Getting involved in community life,n_volun,0.750821692686935
+"Belonging, Connections and Leisure",Sense of community,Getting involved in community life,n_chargv,0.747740345110929
+"Belonging, Connections and Leisure",Sense of community,Getting involved in community life,willing_improve_neighbourhood,0.68138866064092
+"Belonging, Connections and Leisure",Sense of community,Getting involved in community life,local_advice_availability,0.683237469186524
+"Belonging, Connections and Leisure","Arts, leisure and sports","Participation in arts, sport, and leisure activities",physical_activity_index,0.505135579293344
+"Belonging, Connections and Leisure","Arts, leisure and sports","Participation in arts, sport, and leisure activities",leisure_participation_or,0.552588331963846
+"Belonging, Connections and Leisure","Arts, leisure and sports","Participation in arts, sport, and leisure activities",leisure_satisfaction,0.723089564502876
+Health and Healthy Environments,Healthy bodies and healthy minds,Healthy bodies,n_sclfsat1,0.723705834018077
+Health and Healthy Environments,Healthy bodies and healthy minds,Healthy bodies,n_health,0.757189811010682
+Health and Healthy Environments,Healthy bodies and healthy minds,Healthy bodies,n_walkfreq,0.748151191454396
+Health and Healthy Environments,Healthy bodies and healthy minds,Healthy bodies,physical_activity_index,0.505135579293344
+Health and Healthy Environments,Healthy bodies and healthy minds,Wellbeing,wellbeing_mean,0.725965488907149
+Health and Healthy Environments,Healthy bodies and healthy minds,Access to health and care services,access_services_if_need,0.294576828266228
+Health and Healthy Environments,Healthy bodies and healthy minds,Access to health and care services,unmet_need_gp_pos,0.294371405094495
+Health and Healthy Environments,"Healthy, safe and clean neighbourhoods",Good quality housing,n_sclfsat3,0.72329498767461
+Health and Healthy Environments,"Healthy, safe and clean neighbourhoods",Good quality housing,n_matdepd,0.484798685291701
+Health and Healthy Environments,"Healthy, safe and clean neighbourhoods",Safe and clean neighbourhoods,safety_at_night,0.644412489728842
+Health and Healthy Environments,"Healthy, safe and clean neighbourhoods",Safe and clean neighbourhoods,low_crime_worry,0.694741166803615

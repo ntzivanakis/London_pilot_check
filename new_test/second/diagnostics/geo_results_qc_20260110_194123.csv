@@ -1,0 +1,3 @@
+level,status,n_geo,cpi_nonmissing,cpi_coverage,cpi_min,cpi_max,cpi_mean
+WARD,ok,619,619,1,3.51943662240509,10,5.60825638551736
+LAD,ok,32,32,1,5.1274824533267,6.27900298134139,5.54897970719899
